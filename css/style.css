@@ -81,6 +81,9 @@ margin:20px auto;}
 
 header{
 width:100%;
+position:fixed;
+top:0;
+left:0;
 }
 
 /* do i padding ai contenitori */
@@ -117,7 +120,7 @@ footer{
   height:100px;
 }
 main{
-  margin:6px 0;
+  margin:270px 0;
 }
 .clearfix::after{
   clear:both;
