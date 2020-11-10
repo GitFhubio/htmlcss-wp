@@ -83,7 +83,7 @@ footer{
 main{
   margin:6px 0;
 }
-main::after{
+.clearfix::after{
   clear:both;
   content:"";
   display:table;
@@ -118,4 +118,25 @@ height:400px;
 .header-bottom>ul>li.btn:hover{
   background-color:rgba(0,0,0,0.4);
   cursor: pointer;
+}
+
+footer .titolo{
+  border-bottom: 1px solid grey;
+}
+footer{
+  text-align: center;
+}
+#icone{
+  height:100px;
+}
+#icone>div{
+  width:calc(100% / 3);
+  float:left;
+  line-height: 100px;
+
+}
+footer img{
+  width:50px;
+  height:50px;
+  vertical-align: middle;
 }
