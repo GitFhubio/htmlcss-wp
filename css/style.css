@@ -76,7 +76,6 @@ color: #fff;
 
 }
 footer{
-  background-color:#ccc;
   width:100%;
   height:100px;
 }
@@ -96,7 +95,7 @@ main{
 .float:first-child,.float:last-child {
   width: 25%;
 }
-.float:first-child,.float:nth-child(2),.float:last-child>div, footer{
+.float:first-child,.float:nth-child(2),.float:last-child>div{
   background-color:#ccc;
   border-radius: 10px;
 }
@@ -119,15 +118,22 @@ height:400px;
   background-color:rgba(0,0,0,0.4);
   cursor: pointer;
 }
-
-footer .titolo{
-  border-bottom: 1px solid grey;
-}
 footer{
   text-align: center;
 }
-#icone{
+
+footer .titolo{
+  border-bottom: 1px solid grey;
+  border-radius:10px 10px 0 0 ;
+}
+
+footer #icone{
   height:100px;
+    border-radius:0 0 10px 10px ;
+}
+
+footer #icone,footer .titolo{
+  background-color: #ccc;
 }
 #icone>div{
   width:calc(100% / 3);
