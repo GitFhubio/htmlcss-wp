@@ -34,8 +34,8 @@ body{font-family: 'Roboto', sans-serif;
 h1{
   color: #fff;
   display:inline-block;
-  height:calc(190px / 3);
-  line-height:calc(180px / 3);
+  height:calc(190px / 3 - 10px);
+  line-height:calc(180px / 3 - 10px);
   border:5px solid #fff;
   font-size:40px;
   letter-spacing: 4px;
@@ -50,6 +50,8 @@ h1{
 
 .sottotitolo{
   color: #fff;
+  display:block;
+  height:calc(190px / 3);
   text-transform: uppercase;
   line-height:calc(190px / 3);
   letter-spacing: 4px;
