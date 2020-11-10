@@ -83,10 +83,11 @@ h1{
 margin:20px auto;}
 
 header{
-width:100%;
+width:1200px;
 position:fixed;
 top:0;
-left:0;
+left:50%;
+transform:translate(-50%,0);
 }
 
 /* do i padding ai contenitori */
