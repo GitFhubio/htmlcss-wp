@@ -51,11 +51,15 @@ h1{
 
 .sottotitolo{
   position:absolute;
+  height:35px;
   bottom:0;
   left:50%;
-  transform:translate(-50%,-50%);
+  transform:translate(-50%,0);
   text-transform: uppercase;
   color: #fff;
+}
+.sottotitolo h3{
+  line-height:35px;
 }
 .container{width:1200px;
 margin:20px auto;}
