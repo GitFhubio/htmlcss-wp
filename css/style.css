@@ -96,18 +96,16 @@ main::after{
 .float:first-child,.float:last-child {
   width: 25%;
 }
-.float:first-child,.float:last-child>div{
+.float:first-child,.float:nth-child(2),.float:last-child>div, footer{
   background-color:#ccc;
+  border-radius: 10px;
 }
 
 .float:first-child{ height:280px;}
 
 .float:nth-child(2){width: calc(100% / 2 - 30px);
   margin:0 15px;
-    background-color: #ccc;
-}
-
-.float:nth-child(2) {height:400px;
+height:400px;
 }
 .float:nth-child(3){height:1000px;}
 
