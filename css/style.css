@@ -48,12 +48,12 @@ h1{
 }
 .loghetto img{
  width:100%;
- height:70px;
+ height:65px;
 }
 
 .loghetto{
   position:absolute;
-  width:70px;
+  width:65px;
   left:50%;
   transform:translate(-50%,0);
 
@@ -70,6 +70,7 @@ h1{
 }
 .sottotitolo h3{
   line-height:70px;
+  letter-spacing: 4px;
   text-align: center;
 }
 .container{width:1200px;
