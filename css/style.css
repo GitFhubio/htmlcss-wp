@@ -14,6 +14,32 @@ a{
   font-weight: bold;
   text-shadow: 0 0 2px black;
 }
+.testata{
+  width:400px;
+  height:100px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  border: 5px solid #fff;
+
+
+}
+h1{
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.sottotitolo{
+  position:absolute;
+  bottom:0;
+  left:50%;
+  transform:translate(-50%,-50%);
+  text-transform: uppercase;
+  color: #fff;
+}
   h2 {
   font-size: 55px;}
   h3{
@@ -43,6 +69,7 @@ width:100%;
   padding:10px;
 }
 .header-top{
+  position:relative;
   width:100%;
   height:200px;
   background-image: url(../img/header.png);
