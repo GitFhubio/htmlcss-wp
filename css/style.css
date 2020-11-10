@@ -107,13 +107,14 @@ main::after{
     background-color: #ccc;
 }
 
-.float:nth-child(2),.float:nth-child(3) {height:400px;
+.float:nth-child(2) {height:400px;
 }
+.float:nth-child(3){height:1000px;}
 
 .float:last-child>div {
   width:100%;
   margin-bottom: 15px;
-  height:calc(50% - 15px);
+  height:calc(100% / 3 - 15px);
 }
 
 .header-bottom>ul>li.btn:hover{
