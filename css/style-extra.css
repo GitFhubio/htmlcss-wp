@@ -1,0 +1,199 @@
+/* reset */
+*{
+box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* regole generali */
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: rgb(150,197,130);
+  font-weight: bold;
+  text-shadow: 0 0 2px black;
+}
+  h2 {
+  font-size: 55px;}
+  h3{
+    font-size: 20px;}
+  h6{
+    font-size: 14px;
+  }
+
+p{
+  padding-top: 10px;
+}
+body{font-family: 'Roboto', sans-serif;
+  background-image: url(../img/background.png);
+}
+
+/* regole ai blocchi */
+
+.testata{
+  width:300px;
+  height:50px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  border: 5px solid #fff;
+
+}
+h1{
+  color: #fff;
+  font-size:40px;
+  letter-spacing: 4px;
+  text-align: center;
+  line-height: 40px;
+}
+.loghetto img{
+ width:100%;
+ height:100%;
+ filter: invert(100%) brightness(200%);
+}
+
+.loghetto{
+  position:absolute;
+  width:30px;
+  height:30px;
+  left:50%;
+  top:0%;
+  transform:translate(-50%,120%);
+
+}
+.sottotitolo{
+  height:70px;
+  width:500px;
+  position:absolute;
+  bottom:0;
+  left:50%;
+  transform:translate(-50%,0);
+
+}
+.sottotitolo h3{
+  color: #fff;
+  text-transform: uppercase;
+  line-height:70px;
+  letter-spacing: 4px;
+  text-align: center;
+}
+.container{width:1200px;
+margin:20px auto;}
+
+header{
+width:1200px;
+position:fixed;
+top:0;
+left:50%;
+transform:translate(-50%,0);
+}
+
+/* do i padding ai contenitori */
+.float:first-child,.float:nth-child(2),.float:last-child>div{
+  padding:10px;
+}
+.header-top{
+  position:relative;
+  width:100%;
+  height:200px;
+  background-image: url(../img/header.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    border:10px solid #fff;
+}
+.header-bottom{
+  width:100%;
+    background-color:rgb(102,102,102);
+}
+.header-bottom>ul{
+  text-align: center;
+  margin:0 auto;
+width:60%;
+}
+.header-bottom>ul>li{
+display:inline-block;
+height:100%;
+padding:10px 10px;
+color: #fff;
+}
+footer{
+  width:100%;
+  height:100px;
+}
+main{
+  margin-top:250px;
+}
+.clearfix::after{
+  clear:both;
+  content:"";
+  display:table;
+}
+.float{
+  float:left;
+}
+.float:first-child,.float:last-child {
+  width: 20%;
+}
+.float:first-child,.float:nth-child(2),.float:last-child>div{
+  background-color:#ccc;
+  border-radius: 10px;
+}
+
+/* .float:first-child{ height:280px;} */
+
+.float:nth-child(2){width: calc(60% - 80px);
+  margin:0 40px;
+/* height:400px; */
+}
+/* .float:nth-child(3){height:1000px;} */
+
+.float:last-child>div {
+  width:100%;
+  margin-bottom: 15px;
+  /* height:calc(100% / 3 - 15px); */
+}
+.header-bottom>ul>li.btn:hover{
+  background-color:rgba(0,0,0,0.4);
+  cursor: pointer;
+}
+.float ul li{
+  padding:10px 0;
+}
+h3 img{
+  vertical-align: text-top;
+  width:20px;
+  height:20px;
+}
+footer{
+  text-align: center;
+}
+footer .titolo{
+  border-bottom: 1px solid grey;
+  border-radius:10px 10px 0 0 ;
+}
+footer #iconesocial{
+  height:100px;
+  line-height: 100px;
+    border-radius:0 0 10px 10px ;
+}
+footer #iconesocial,footer .titolo{
+  background-color: #ccc;
+}
+
+footer img{
+  width:50px;
+  height:50px;
+  vertical-align: middle;
+}
+footer img ,footer h6{
+  opacity:0.4;
+}
+
+#iconesocial img{
+  margin: 0 150px ;
+  vertical-align: middle;
+}
+/* nell'header avrei potuto centrare testi con align center evitando i div */
